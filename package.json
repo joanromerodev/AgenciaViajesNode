@@ -1,0 +1,23 @@
+{
+  "name": "project1nodejs",
+  "version": "1.0.0",
+  "description": "Primer proyecto con NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "type": "module",
+  "author": "Joan",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "mysql2": "^3.3.3",
+    "pug": "^3.0.2",
+    "sequelize": "^6.32.0",
+    "sweetalert2": "^11.7.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
